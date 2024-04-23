@@ -27,7 +27,7 @@ This project is a fundamental part of the curriculum at 42 school, designed to s
 
 ## Evaluation
 
-This project was assigned as a ⭐ outstanding project by three 42 school peers and has received the maximum evaluation score – 125%, including a bonus of 25 points.
+This project was assigned as a ⭐ outstanding project by three 42 school peers and has received the maximum evaluation score – **125%**, including a bonus of 25 points.
 
 ![Score 125%](README/evaluation-score.png)
 
