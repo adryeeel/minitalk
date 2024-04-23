@@ -7,7 +7,7 @@ This repository houses an implementation of a minimalistic communication protoco
 
 Delving into the core of system-level programming, this project offers a comprehensive exploration of inter-process communication, providing a solid foundation for understanding the intricacies of UNIX systems.
 
-This project is a fundamental part of the curriculum at 42 school, designed to strengthen your understanding in UNIX signals, inter process communication and characters enconding in C.
+This project is a fundamental part of the 42 school curriculum, designed to strengthen your students' comprehension of UNIX signals, inter-process communication, and character encoding in C.
 
 ## Project Overview
 
