@@ -11,7 +11,9 @@ This project is a fundamental part of the 42 school curriculum, designed to stre
 
 ## Project Overview
 
-This project start with understanding the purpose of UNIX signals and how to read and send them in C programs. The minitalk subject allows only two signals: `SIGUSR1` and `SIGUSR2`.
+This project begins with a comprehensive exploration of UNIX signals, delving into their purpose and the techniques for both reading and sending them within C programs.
+
+Focusing specifically on the minitalk subject, the implementation restricts signal usage to just two types: `SIGUSR1` and `SIGUSR2`, thereby streamlining the communication process for simplicity and efficiency.
 
 To effectively transmit the message, we must encode each character of the message into its binary form and send the binary to server using the allowed UNIX signals, ensuring efficient communication and data transfer.
 
