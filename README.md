@@ -9,7 +9,17 @@ Delving into the core of system-level programming, this project offers a compreh
 
 This project is a fundamental part of the curriculum at 42 school, designed to strengthen your understanding in UNIX signals, inter process communication and characters enconding in C.
 
+## Project Overview
+
 ## Key Features
+
+- Support for multiple clients.
+
+- Support for unicode characters.
+
+- Fast transmission with 38 miliseconds per 1000 characters message.
+
+- Error handling for wrong arguments and communication problems.
 
 ## Usage
 
@@ -21,9 +31,7 @@ This project is a fundamental part of the curriculum at 42 school, designed to s
 
 - Start the server and copy its PID: `./server`
 
-- Send the message through the client: `./client [server-pid] [message]`
-
-## Project Overview
+- Send the message through the client: `./client [SERVER_PID] [MESSAGE]`
 
 ## Evaluation
 
