@@ -12,11 +12,11 @@
 
 #include "../minitalk.h"
 
-static int g_sigsrv;
+static int	g_sigsrv;
 
-bool ft_await(size_t cycles)
+bool	ft_await(size_t cycles)
 {
-	size_t i;
+	size_t	i;
 
 	i = 0;
 	while (g_sigsrv == 0)
@@ -33,9 +33,9 @@ bool ft_await(size_t cycles)
 	return (true);
 }
 
-void sig_handler(int signum, siginfo_t *info, void *context)
+void	sig_handler(int signum, siginfo_t *info, void *context)
 {
-	static size_t i;
+	static size_t	i;
 
 	(void)info;
 	(void)context;
@@ -46,11 +46,11 @@ void sig_handler(int signum, siginfo_t *info, void *context)
 		ft_printf("Bytes read: %d\n", (i + 1) / 8);
 }
 
-int main(int argc, char const *argv[])
+int	main(int argc, char const *argv[])
 {
-	pid_t pid;
-	size_t len;
-	const char *msg;
+	pid_t		pid;
+	size_t		len;
+	const char	*msg;
 
 	if (argc <= 2 || argc >= 4)
 		return (0);
